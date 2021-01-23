@@ -615,14 +615,14 @@ create_product_options(laptopFour_options, laptopFour, "storage")
 
 # ***** test user case below *******
 
-# skuOne = Sku.all.find { |sku| sku.name == 'sony Class X750H Series 43"'}
+skuOne = Sku.all.find { |sku| sku.name == 'MacBook Air 13.3" Laptop with Touch ID - Intel Core i3 - 8GB Memory'}
 
-# orderOne = Order.create(
-#     user_id: jd.id
-# )
+orderOne = Order.create(
+    user_id: test_user.id
+)
 
-# ProductOrder.create(
-#     sku_id: skuOne.id,
-#     order_id: orderOne.id,
-#     quantity: 2
-# )
+ProductOrder.create(
+    sku_id: skuOne.id,
+    order_id: orderOne.id,
+    quantity: 2
+)
