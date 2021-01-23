@@ -46,8 +46,7 @@ phoneOne = Product.create(
     sideimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6009/6009897cv11d.jpg',
     backimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6009/6009897cv12d.jpg',
     brand: 'apple',
-    additional_specs: '
-    iPhone 12. 5G to download movies on the fly and stream high-quality video. Beautifully bright 6.1-inch Super Retina XDR display. Ceramic Shield with 4x better drop performance. Incredible low-light photography with Night mode on all cameras. Cinema-grade Dolby Vision video recording, editing, and playback. Powerful A14 Bionic chip. And new MagSafe accessories for easy attach and faster wireless charging. Let the fun begin.'
+    additional_specs: 'iPhone 12. 5G to download movies on the fly and stream high-quality video. Beautifully bright 6.1-inch Super Retina XDR display. Ceramic Shield with 4x better drop performance. Incredible low-light photography with Night mode on all cameras. Cinema-grade Dolby Vision video recording, editing, and playback. Powerful A14 Bionic chip. And new MagSafe accessories for easy attach and faster wireless charging. Let the fun begin.'
 )
 iphone12_options = [
         {
