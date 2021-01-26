@@ -12,12 +12,14 @@ class UsersController < ApplicationController
             except: [:created_at, :updated_at],
             include: [ orders: {
                 except: [:created_at, :updated_at],
-                include: [ product_orders: {
+                include: [ 
+                    product_orders: {
                     except: [:created_at, :updated_at],
                     include: [ sku: {
                         only: [ :price ]
                     } ]
-                } ]
+                }
+                ]
             } ]
         ) 
     end     
