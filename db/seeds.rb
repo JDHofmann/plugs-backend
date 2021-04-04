@@ -41,7 +41,7 @@ end
 phoneOne = Product.create(
     name: 'iphone 12',
     rating: 3.5,
-    category: 'phone',
+    category: 'phones',
     frontimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6009/6009897_sd.jpg;maxHeight=640;maxWidth=550',
     sideimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6009/6009897cv11d.jpg',
     backimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6009/6009897cv12d.jpg',
@@ -67,7 +67,7 @@ create_product_options(iphone12_options, phoneOne, "storage")
 phoneTwo = Product.create(
     name: 'iphone 11',
     rating: 3.5,
-    category: 'phone',
+    category: 'phones',
     frontimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6341/6341340cv11d.jpg',
     sideimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6341/6341340cv12d.jpg',
     backimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6341/6341340cv13d.jpg',
@@ -90,7 +90,7 @@ create_product_options(iphone11_options, phoneTwo, "storage")
 phoneThree = Product.create(
     name: 'Galaxy S20 FE 5G',
     rating: 3.25,
-    category: 'phone',
+    category: 'phones',
     frontimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6426/6426276_sd.jpg;maxHeight=640;maxWidth=550',
     sideimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6426/6426276cv15d.jpg',
     backimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6426/6426276cv13d.jpg',
@@ -113,7 +113,7 @@ create_product_options(phoneThree_options, phoneThree, "storage")
 phoneFour = Product.create(
     name: 'Galaxy Note20 Ultra 5G',
     rating: 3.75,
-    category: 'phone',
+    category: 'phones',
     frontimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6420/6420842_sd.jpg',
     sideimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6420/6420842ld.jpg',
     backimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6420/6420842cv19d.jpg',
@@ -139,7 +139,7 @@ create_product_options(phoneFour_options, phoneFour, "storage")
 tvOne = Product.create(
     name: 'Class X750H Series',
     rating: 3.5,
-    category: 'tv',
+    category: 'tvs',
     frontimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6400/6400728_sd.jpg;maxHeight=640;maxWidth=550',
     sideimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6400/6400728_rd.jpg',
     backimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6400/6400728_bd.jpg',
@@ -166,7 +166,7 @@ create_product_options(tvOne_options, tvOne, "size" )
 tvTwo = Product.create(
     name: 'Class UN7000 Series LED 4K UHD Smart webOS TV',
     rating: 3.5,
-    category: 'tv',
+    category: 'tvs',
     frontimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6417/6417302_sd.jpg',
     sideimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6417/6417302cv13d.jpg',
     backimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6417/6417302cv16d.jpg',
@@ -193,7 +193,7 @@ create_product_options(tvTwo_options, tvTwo, "size" )
 tvThree = Product.create(
     name: 'Class 4 Series LED 4K UHD Smart Android TV',
     rating: 2.75,
-    category: 'tv',
+    category: 'tvs',
     frontimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6422/6422761_sd.jpg',
     sideimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6422/6422761ld.jpg',
     backimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6422/6422761cv11d.jpg',
@@ -222,7 +222,7 @@ create_product_options(tvThree_options, tvThree, "size" )
 harddriveOne = Product.create(
     name: 'easystore External USB 3.0 Portable Hard Drive - Black',
     rating: 2.5,
-    category: 'accessory',
+    category: 'accessories',
     frontimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6406/6406513_sd.jpg;maxHeight=640;maxWidth=550',
     sideimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6406/6406513cv11d.jpg',
     backimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6406/6406513cv13d.jpg',
@@ -245,7 +245,7 @@ create_product_options(harddriveOne_options, harddriveOne, "storage")
 harddriveTwo = Product.create(
     name: 'Rugged External USB Type-C Portable Hard Drive - Orange/Silver',
     rating: 3.4,
-    category: 'accessory',
+    category: 'accessories',
     frontimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6083/6083500_sd.jpg;maxHeight=640;maxWidth=550',
     sideimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6083/6083500ld.jpg',
     backimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6083/6083500cv11d.jpg',
@@ -268,7 +268,7 @@ create_product_options(harddriveTwo_options, harddriveTwo, "storage")
 harddriveThree = Product.create(
     name: 'Expansion External USB 3.0 Portable Hard Drive - Black',
     rating: 3.4,
-    category: 'accessory',
+    category: 'accessories',
     frontimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7028/7028043_sd.jpg;maxHeight=640;maxWidth=550',
     sideimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7028/7028043cv11d.jpg;maxHeight=640;maxWidth=550',
     backimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7028/7028043cv12d.jpg;maxHeight=640;maxWidth=550',
@@ -300,7 +300,7 @@ create_product_options(harddriveThree_options, harddriveThree, "storage")
 smartWatchOne = Product.create(
     name: 'Apple Watch Nike SE (GPS) 40mm Space Gray Aluminum Case with Anthracite/Black Nike Sport Band - Space Gray',
     rating: 3.8,
-    category: 'smart watch',
+    category: 'smart watches',
     frontimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6215/6215904_sd.jpg;maxHeight=640;maxWidth=550',
     sideimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6215/6215904cv11d.jpg',
     backimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6215/6215904cv15d.jpg',
@@ -322,7 +322,7 @@ create_product_options(smartWatchOne_options, smartWatchOne, "size")
 smartWatchTwo = Product.create(
     name: 'Apple Watch Series 3 (GPS) 38mm Space Gray Aluminum Case with Black Sport Band - Space Gray Aluminum',
     rating: 3.7,
-    category: 'smart watch',
+    category: 'smart watches',
     frontimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5706/5706618ld.jpg;maxHeight=640;maxWidth=550',
     sideimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5706/5706618cv11d.jpg;maxHeight=640;maxWidth=550',
     backimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5706/5706618cv11d.jpg',
@@ -344,7 +344,7 @@ create_product_options(smartWatchTwo_options, smartWatchTwo, "size")
 smartWatchThree = Product.create(
     name: 'Galaxy Watch Active2 Smartwatch 40mm Aluminum - Cloud Silver',
     rating: 3.7,
-    category: 'smart watch',
+    category: 'smart watches',
     frontimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6360/6360444_sd.jpg;maxHeight=640;maxWidth=550',
     sideimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6360/6360444_rd.jpg',
     backimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6360/6360444cv14d.jpg',
@@ -366,7 +366,7 @@ create_product_options(smartWatchThree_options, smartWatchThree, "size")
 smartWatchFour = Product.create(
     name: 'Versa 2 Smartwatch 40mm Aluminum',
     rating: 3.7,
-    category: 'smart watch',
+    category: 'smart watches',
     frontimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6364/6364308_sd.jpg;maxHeight=640;maxWidth=550',
     sideimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6364/6364308_rd.jpg',
     backimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6364/6364308_bd.jpg',
@@ -395,7 +395,7 @@ create_product_options(smartWatchFour_options, smartWatchFour, "color")
 tabletOne = Product.create(
     name: 'iPad Pro 11 Inch',
     rating: 4.5,
-    category: 'tablet',
+    category: 'tablets',
     frontimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3756/3756005_sd.jpg;maxHeight=640;maxWidth=550',
     sideimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3756/3756005cv13d.jpg;maxHeight=640;maxWidth=550',
     backimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3756/3756005cv11d.jpg;maxHeight=640;maxWidth=550',
@@ -422,7 +422,7 @@ tabletOne_options = [
     tabletTwo = Product.create(
         name: 'iPad Air',
         rating: 4.5,
-        category: 'tablet',
+        category: 'tablets',
         frontimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5985/5985617_sd.jpg;maxHeight=640;maxWidth=550',
         sideimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5985/5985617cv11d.jpg;maxHeight=640;maxWidth=550',
         backimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5985/5985617cv12d.jpg;maxHeight=640;maxWidth=550',
@@ -445,7 +445,7 @@ tabletOne_options = [
         tabletThree = Product.create(
             name: 'Galaxy Tab S6',
             rating: 4.2,
-            category: 'tablet',
+            category: 'tablets',
             frontimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6357/6357007_sd.jpg;maxHeight=640;maxWidth=550',
             sideimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6357/6357007cv11d.jpg;maxHeight=640;maxWidth=550',
             backimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6357/6357007_bd.jpg;maxHeight=640;maxWidth=550',
@@ -467,7 +467,7 @@ tabletOne_options = [
             tabletFour = Product.create(
                 name: 'Galaxy Tab S7',
                 rating: 4.4,
-                category: 'tablet',
+                category: 'tablets',
                 frontimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6423/6423329_sd.jpg;maxHeight=640;maxWidth=550',
                 sideimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6423/6423329cv12d.jpg;maxHeight=640;maxWidth=550',
                 backimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6423/6423329cv14d.jpg;maxHeight=640;maxWidth=550',
@@ -493,7 +493,7 @@ tabletOne_options = [
               tabletFive = Product.create(
                   name: 'Surface Pro 7',
                   rating: 4.0,
-                  category: 'tablet',
+                  category: 'tablets',
                   frontimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6374/6374987_sd.jpg;maxHeight=640;maxWidth=550',
                   sideimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6374/6374987cv12d.jpg;maxHeight=640;maxWidth=550',
                   backimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6374/6374987cv13d.jpg;maxHeight=640;maxWidth=550',
@@ -524,7 +524,7 @@ tabletOne_options = [
 laptopOne = Product.create(
     name: 'Surface Laptop 3 - 15" Touch-Screen - 16GB Memory - 256GB SSD (Latest Model) - Matte Black',
     rating: 3.9,
-    category: 'laptop',
+    category: 'laptops',
     frontimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6374/6374326cv11d.jpg',
     sideimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6374/6374326_sd.jpg',
     backimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6374/6374326cv14d.jpg',
@@ -547,7 +547,7 @@ create_product_options(laptopOne_options, laptopOne, "processor")
 laptopTwo = Product.create(
     name: 'Galaxy Book Flex 2-in-1 15.6" QLED Touch-Screen Laptop',
     rating: 3.4,
-    category: 'laptop',
+    category: 'laptops',
     frontimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6398/6398415_sd.jpg;maxHeight=640;maxWidth=550',
     sideimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6398/6398415ld.jpg;maxHeight=640;maxWidth=550',
     backimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6398/6398415cv1d.jpg',
@@ -570,7 +570,7 @@ create_product_options(laptopTwo_options, laptopTwo, "processor")
 laptopThree = Product.create(
     name: 'MacBook Pro 13.3" Laptop - Apple M1 chip - 8GB Memory ',
     rating: 3.9,
-    category: 'laptop',
+    category: 'laptops',
     frontimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6418/6418602_sd.jpg;maxHeight=640;maxWidth=550',
     sideimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6418/6418602cv11d.jpg;maxHeight=640;maxWidth=550',
     backimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6418/6418602cv13d.jpg;maxHeight=640;maxWidth=550',
@@ -593,7 +593,7 @@ create_product_options(laptopThree_options, laptopThree, "storage")
 laptopFour = Product.create(
     name: 'MacBook Air 13.3" Laptop with Touch ID - Intel Core i3 - 8GB Memory',
     rating: 3.9,
-    category: 'laptop',
+    category: 'laptops',
     frontimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6366/6366606_sd.jpg;maxHeight=640;maxWidth=550',
     sideimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6366/6366606cv11d.jpg;maxHeight=640;maxWidth=550',
     backimg: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6366/6366606cv12d.jpg;maxHeight=640;maxWidth=550',
@@ -615,14 +615,14 @@ create_product_options(laptopFour_options, laptopFour, "storage")
 
 # ***** test user case below *******
 
-skuOne = Sku.all.find { |sku| sku.name == 'MacBook Air 13.3" Laptop with Touch ID - Intel Core i3 - 8GB Memory'}
+# skuOne = Sku.all.find { |sku| sku.name == 'MacBook Air 13.3" Laptop with Touch ID - Intel Core i3 - 8GB Memory'}
 
-orderOne = Order.create(
-    user_id: test_user.id
-)
+# orderOne = Order.create(
+#     user_id: test_user.id
+# )
 
-ProductOrder.create(
-    sku_id: skuOne.id,
-    order_id: orderOne.id,
-    quantity: 2
-)
+# ProductOrder.create(
+#     sku_id: skuOne.id,
+#     order_id: orderOne.id,
+#     quantity: 2
+# )
