@@ -20,7 +20,7 @@ class OrdersController < ApplicationController
             # if sku[:quantity] > 0 
             #     byebug
             product_order = ProductOrder.create(
-                sku_id: sku[:sku][:id],
+                sku_id: sku[:sku],
                 quantity: sku[:quantity],
                 order_id: order[:id]
             )
